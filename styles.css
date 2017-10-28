@@ -1,8 +1,7 @@
-body {
+html body {
 	background: url(assets/tile.jpg) repeat;
 	padding-top: 5%;
 	font-family: Courier New;
-	color: #001a33;
 }
 
 .container {
@@ -14,4 +13,17 @@ a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
   cursor:
+}
+
+.logo {
+	height: 0.95em;
+	padding-bottom: 1.5%;
+}
+
+p#summary {
+    font-size: 100%;
+}
+
+p#fb-link {
+	font-size: 120%;
 }
